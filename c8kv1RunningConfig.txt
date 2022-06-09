@@ -230,6 +230,7 @@ ip http authentication local
 no ip http secure-server
 ip http client source-interface GigabitEthernet1
 !
+ip route 0.0.0.0 0.0.0.0 192.168.1.1
 ip ssh version 2
 !
 ip access-list standard sslvpn-tunnel
